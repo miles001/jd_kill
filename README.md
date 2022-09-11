@@ -10,9 +10,12 @@
 
 ## 环境配置：
 
-- 电脑下载Chrome浏览器，获取Chrome浏览器的版本号![image-20220910191259740](/Users/liuyang/PycharmProjects/jd_kill/image/image-20220910191259740.png)
-- 前往http://chromedriver.storage.googleapis.com/index.html下载对应版本号对应操作系统的浏览器驱动(非常重要！！！！)![image-20220910213112463](/Users/liuyang/Library/Application Support/typora-user-images/image-20220910213112463.png)
-- 将下载下来的驱动放进utils文件夹下，打开depend.py，修改第22行参数，例如Windows下可能需要改为 文件名.exe![image-20220910191910122](/Users/liuyang/PycharmProjects/jd_kill/image/image-20220910191910122.png)
+- 电脑下载Chrome浏览器，获取Chrome浏览器的版本号
+![This is an image](/image/image-20220910191259740.png)
+- 前往 http://chromedriver.storage.googleapis.com/index.html 下载对应版本号对应操作系统的浏览器驱动(非常重要！！！！)
+![This is an image](/image/image-20220910191413359.png)
+- 将下载下来的驱动放进utils文件夹下，打开depend.py，修改第22行参数，例如Windows下可能需要改为 文件名.exe!
+![This is an image](/image/image-20220910191910122.png)
 - 运行jd.py，如果程序打开了一个Chrome浏览器，则说明设置正确，可以开始正式使用了
 
 ## 使用步骤：
