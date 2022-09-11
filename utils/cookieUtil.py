@@ -1,9 +1,11 @@
 import json
 import os
-#任务路径(无需修改)
-mainPath=os.path.abspath(os.getcwd())
+
+# 任务路径(如果无法正常运行，提示路径错误，可能是这有问题，请自行检查)
+mainPath = os.path.abspath(os.getcwd())
 # 任务名称
 jobName = 'jd'
+# cookie的路径
 cookiesPath = mainPath + "/cookies/"
 
 
@@ -34,7 +36,7 @@ def readCookie(name):
 
 # 存储cookie
 def saveCookie(name, cookie):
-    jsonCookies=json.dumps(cookie)
+    jsonCookies = json.dumps(cookie)
     cookie_file = open(cookiesPath + name + ".json", mode='w')
     # 写入cookie
     cookie_file.write(jsonCookies)
