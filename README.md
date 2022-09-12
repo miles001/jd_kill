@@ -16,7 +16,7 @@
 ![This is an image](/image/image-20220910191413359.png)
 - 将下载下来的驱动放进utils文件夹下，打开depend.py，修改第22行参数，例如Windows下可能需要改为 文件名.exe!
 ![This is an image](/image/image-20220910191910122.png)
-- 运行jd.py，如果程序打开了一个Chrome浏览器，则说明设置正确，可以开始正式使用了
+- 运行main.py，如果程序打开了一个Chrome浏览器，则说明设置正确，可以开始正式使用了
 
 ## 使用步骤：
 
